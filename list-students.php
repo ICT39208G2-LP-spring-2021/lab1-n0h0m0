@@ -13,7 +13,7 @@ $value = mysqli_query($conn , $sql);
 if(!$value){
     echo "მონაცემები ვერ მოიძებნა";
 }
-
+//გამოგვაქვს სტუდენტის სახელი გვარი და პერსონალური ნომერი.
 echo "<table>";
 while($row = mysqli_fetch_assoc($value)) {
     echo "First name : {$row['FirstName']} <br> ";
