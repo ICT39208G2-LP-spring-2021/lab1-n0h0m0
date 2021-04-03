@@ -12,6 +12,6 @@ if($connection->connect_error){ //if(!$connection){ }
 }else{
     echo "მონაცემთა ბაზასთან კავშირი წარმატებით დამყარდა";
 }
-
+//
 
 ?>
